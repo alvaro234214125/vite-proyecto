@@ -15,7 +15,7 @@ const SingleItem =({price,type,id,eliminarItem,editItem})=> {
 
     return(
         <div className="single-item">
-            <img src="../src/imgs/6498834.png" alt="" />
+            <img src="./src/imgs/6498834.png" alt="" />
             <h3>Producto: {type}</h3>
             <h3>Precio: {moneyFormat(Number(price))}</h3>
             <a href="" className="delete" onClick={HandleDelete}>Borrar</a>
